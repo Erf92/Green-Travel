@@ -239,6 +239,18 @@ header {
   color: white;
 }
 
+.features__crads {
+  padding: var(--padding-xl) 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.feature-column {
+}
+.feature__title {
+}
+.feature__describtion {
+}
+
 @media (max-width: 768px) {
   .popular__cards {
     grid-template-columns: 1fr;
