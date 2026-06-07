@@ -30,6 +30,36 @@
           <button class="hero__btn">رزرو تور</button>
         </div>
       </section>
+      <section class="quick-search">
+        <article class="search-card">
+          <form class="search__form">
+            <div class="form__field">
+              <label for="destination">مقصد:</label>
+              <input
+                type="text"
+                name="destination"
+                id="destination"
+                placeholder="مثلا شمال"
+              />
+            </div>
+            <div class="form__field">
+              <label for="travel-date">تاریخ:</label>
+              <input type="date" name="travel-date" id="travel-date" />
+            </div>
+            <div class="form__field">
+              <label for="travelers">تعداد مسافران:</label>
+              <input
+                type="number"
+                name="travelers"
+                id="travelers"
+                min="1"
+                placeholder="1"
+              />
+            </div>
+            <button type="submit" class="form__btn" id="formBtn">جستجو</button>
+          </form>
+        </article>
+      </section>
     </main>
     <script src="script.js"></script>
   </body>
