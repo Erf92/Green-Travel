@@ -13,17 +13,17 @@
           <a href="/" class="header__logo">سفر سبز</a>
           <nav class="header__nav">
             <ul class="nav__menu">
-              <li class="menu__item"><a href="#">خانه</a></li>
-              <li class="menu__item"><a href="#">تورها</a></li>
-              <li class="menu__item"><a href="#">درباره ما</a></li>
-              <li class="menu__item"><a href="#">تماس</a></li>
+              <li class="menu__item"><a href="/">خانه</a></li>
+              <li class="menu__item"><a href="#popularTours">تورها</a></li>
+              <li class="menu__item"><a href="#features">درباره ما</a></li>
+              <li class="menu__item"><a href="#hero">تماس</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero__content">
           <h1 class="hero__title">با سفر سبز، طبیعت را کشف کن</h1>
           <p class="hero__subtitle">تورهای طبیعت‌گردی با کمترین کربن</p>
@@ -60,7 +60,7 @@
           </form>
         </article>
       </section>
-      <section class="popular-tours">
+      <section class="popular-tours" id="popularTours">
         <div class="container">
           <div class="popular-tours__content">
             <h2 class="popular__title">تورهای محبوب</h2>
@@ -119,7 +119,7 @@
           </div>
         </div>
       </section>
-      <section class="features">
+      <section class="features" id="features">
         <div class="container">
           <div class="features__crads">
             <article class="feature-column">
@@ -145,6 +145,27 @@
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container">
+        <div class="footer__content">
+          <div class="logo-and-links">
+            <div class="logo-and-title">
+              <a href="/" class="footer__logo">سفر سبز</a>
+              <p class="footer__describtion">
+                ما در آژانس مسافرتی سفر سبز در تلاشیم لحظات خوبی را برای شما
+                عزیزان خلق کنیم با تشکر از همراهیتان.
+              </p>
+            </div>
+            <div class="fast-links">
+              <a href="#features" class="footer__link">درباره ما</a>
+              <a href="#hero" class="footer__link">تماس</a>
+              <a href="#" class="footer__link">حریم‌خصوصی</a>
+            </div>
+          </div>
+          <p class="copyright">© 2025 سفر سبز. تمامی حقوق محفوظ است</p>
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
