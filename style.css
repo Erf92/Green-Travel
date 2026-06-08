@@ -282,14 +282,56 @@ footer {
   flex-direction: column;
   gap: 1rem;
 }
-.footer__link {
-}
-.copyright {
-}
+
+/*
+فوتر: دو ستون به صورت ستونی زیر هم. */
 
 @media (max-width: 768px) {
+  header {
+    height: fit-content;
+  }
+
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .nav__menu {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+
   .popular__cards {
     grid-template-columns: 1fr;
     gap: var(--padding-light);
+  }
+
+  .features__crads {
+    grid-template-columns: 1fr;
+    gap: var(--padding-xl);
+  }
+
+  .logo-and-links {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .logo-and-title {
+    max-width: fit-content;
+  }
+
+  .fast-links {
+    flex-direction: row;
+    gap: 2rem;
   }
 }
