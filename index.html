@@ -32,7 +32,7 @@
       </section>
       <section class="quick-search">
         <article class="search-card">
-          <form class="search__form">
+          <form class="search__form" id="searchForm">
             <div class="form__field">
               <label for="destination">مقصد:</label>
               <input
@@ -43,8 +43,8 @@
               />
             </div>
             <div class="form__field">
-              <label for="travel-date">تاریخ:</label>
-              <input type="date" name="travel-date" id="travel-date" />
+              <label for="travelDate">تاریخ:</label>
+              <input type="date" name="travelDate" id="travelDate" />
             </div>
             <div class="form__field">
               <label for="travelers">تعداد مسافران:</label>
@@ -56,7 +56,7 @@
                 placeholder="1"
               />
             </div>
-            <button type="submit" class="form__btn" id="formBtn">جستجو</button>
+            <button type="submit" class="form__btn">جستجو</button>
           </form>
         </article>
       </section>
@@ -81,7 +81,9 @@
                     >قیمت از: <span>۱,۲۰۰,۰۰۰</span> تومان</span
                   >
                 </div>
-                <button class="card__info-btn">جزئیات</button>
+                <button class="card__info-btn" data-title="جنگل‌های ابری">
+                  جزئیات
+                </button>
               </article>
               <article class="popular__card">
                 <img
@@ -96,7 +98,9 @@
                     >قیمت از: <span>۱,۰۰۰,۰۰۰</span> تومان</span
                   >
                 </div>
-                <button class="card__info-btn">جزئیات</button>
+                <button class="card__info-btn" data-title="ماسال">
+                  جزئیات
+                </button>
               </article>
               <article class="popular__card">
                 <img
@@ -113,7 +117,9 @@
                     >قیمت از: <span>۱,۰۰۰,۰۰۰</span> تومان</span
                   >
                 </div>
-                <button class="card__info-btn">جزئیات</button>
+                <button class="card__info-btn" data-title="روستای فیلبند">
+                  جزئیات
+                </button>
               </article>
             </div>
           </div>
