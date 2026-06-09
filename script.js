@@ -16,7 +16,15 @@ function handleSearch(e) {
   const travelersValue = app.travelers.value.trim();
 
   if (!destinationValue || !travelDateValue || !travelersValue) {
-    alert("لطفا همه فیلدها را پر کنید");
+    if (!destinationValue) {
+      alert("لطفا بخش مربوط به نام مقصد را پر کنید");
+    }
+    if (!travelDateValue) {
+      alert("لطفا بخش مربوط به تاریخ سفر را پر کنید");
+    }
+    if (!travelersValue) {
+      alert("لطفا بخش مربوط به تعداد مسافران را پر کنید");
+    }
     return;
   }
 
